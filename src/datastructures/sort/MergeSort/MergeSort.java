@@ -63,8 +63,13 @@ public class MergeSort {
 
         int[] myArray = {3,1,4,2};
 
+        int[] sortedArray = mergeSort(myArray);
+
 //        System.out.println(Arrays.toString( merge(array1, array2))+ "\n");
         System.out.println(Arrays.toString( mergeSort(myArray))+ "\n");
+
+
+        printArray(sortedArray);
 
     }
 
