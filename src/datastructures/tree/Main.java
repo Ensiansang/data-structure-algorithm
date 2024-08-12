@@ -12,10 +12,15 @@ public class Main {
                 myTree.Insert(52);
                 myTree.Insert(82);
 
+               // System.out.println(myTree.BFS());
+              //  System.out.println(myTree.DFSPreOrder());
+            //   System.out.println(myTree.DFSPostOrder());
+                System.out.println(myTree.DFSInOrder());
+
 //                myTree.Insert(27);
 
-                System.out.println(myTree.Contains(82));
-                System.out.println(myTree.Contains(57));
+           //     System.out.println(myTree.Contains(82));
+          //      System.out.println(myTree.Contains(57));
 
 //                System.out.println(myTree.root.left.right.value);
 
